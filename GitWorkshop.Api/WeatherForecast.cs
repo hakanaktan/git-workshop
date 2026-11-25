@@ -2,6 +2,9 @@ namespace GitWorkshop.Api;
 
 public class WeatherForecast
 {
+    /// <summary>
+    /// Summary1
+    /// </summary>
     public DateOnly Date { get; set; }
 
     public int TemperatureC { get; init; }
