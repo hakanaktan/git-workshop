@@ -13,7 +13,7 @@ public class WeatherForecastController : ControllerBase
 
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
-    {//test1
+    {//test1, branch2
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
